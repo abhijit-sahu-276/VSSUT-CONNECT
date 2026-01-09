@@ -126,12 +126,12 @@ export const foodVendors: FoodVendor[] = [
   },
   {
     id: 'f2',
-    name: 'Swarup Fast Food',
+    name: 'Friends Fast Food',
     phone: '+91 8270469682',
     type: ['Fast Food'],
     vegNonveg: 'Both',
     avgServingMins: 10,
-    priceRange: '₹40–₹160',
+    priceRange: '₹30–₹150',
     menu: [
       { item: 'Veg Roll', price: 50 },
       { item: 'Egg Roll', price: 60 },
@@ -143,6 +143,7 @@ export const foodVendors: FoodVendor[] = [
       { id: 'r3', user: 'Rahul', rating: 3, comment: 'Okayish rolls.', date: '2023-09-20', avatarColor: 'bg-amber-500' },
     ],
     rating: 3.0,
+    imageUrl: 'https://images.getrecipekit.com/20220904015448-veg-20fried-20rice.png?aspect_ratio=16:9&quality=90&'
   },
   {
     id: 'f3',
@@ -287,6 +288,7 @@ export const services: Service[] = [
       { id: 'sr1', user: 'Student1', rating: 5, comment: 'Very fast service.', date: '2024-01-15', avatarColor: 'bg-emerald-500' },
     ],
     rating: 5.0,
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJZpR6-poztg_bLVRz0Go3cyTv0e1prEM96w&s'
   },
   {
     id: 's2',
@@ -298,6 +300,30 @@ export const services: Service[] = [
     price: 'Varies',
     reviews: [],
     rating: 4.0,
+    imageUrl: 'https://content.jdmagicbox.com/v2/comp/hyderabad/l8/040pxx40.xx40.130617143412.j5l8/catalogue/mind-space-systems-madhapur-hyderabad-laptop-repair-and-services-toshiba-n1bpmff21z.jpg'
+  },
+   {
+    id: 's3',
+    name: 'SBI ATM',
+    type: 'Services',
+    phone: '+91 ',
+    estimatedTime: '5 min',
+    distance: '0.2km from Campus',
+    reviews: [],
+    rating: 4.0,
+    imageUrl: 'https://i.ndtvimg.com/i/2017-05/sbi-board-with-new-logo-650_650x400_51494212001.jpg?downsize=545:307'
+  },
+   {
+    id: 's4',
+    name: 'Campus Electrical Shop',
+    type: 'Machinery Repair',
+    phone: '+91 9348017676',
+    estimatedTime: '5–10 mins',
+    distance: '1km from Campus',
+    price: '₹50-₹1000',
+    reviews: [],
+    rating: 4.6,
+    imageUrl: 'https://www.bizkl.com/galleryimgs/1_shop2870.jpg'
   },
 ];
 
@@ -360,6 +386,7 @@ export const places: Place[] = [
     notes: 'Nearest major hospital for students',
     rating: 4.2,
     reviews: [],
+    imageUrl: 'https://www.yashodahospital.org/assets/images/emergency-photo.webp'
   },
   {
     id: 'p4',
@@ -370,6 +397,7 @@ export const places: Place[] = [
     notes: 'Main rail connectivity for Sambalpur region',
     rating: 4.0,
     reviews: [],
+    imageUrl: 'https://www.orissapost.com/wp-content/uploads/2019/09/Sambalpur-best-performing-railway-division-in-country-750x375.jpg'
   },
   {
     id: 'p5',
@@ -380,6 +408,7 @@ export const places: Place[] = [
     notes: 'Major Shakti Peetha of Sambalpur',
     rating: 4.8,
     reviews: [],
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7u6zZD1u332MgRN8lOcfOZPfo3g6cCegyPQ&s%27'
   },
   {
     id: 'p6',
@@ -390,6 +419,7 @@ export const places: Place[] = [
     notes: 'Leaning Temple of Odisha',
     rating: 4.6,
     reviews: [],
+    imageUrl: 'https://tripxl.com/blog/wp-content/uploads/2024/09/Location-42.jpg'
   },
 ];
 
@@ -405,6 +435,7 @@ export const salons: Service[] = [
     price: '₹100+',
     reviews: [],
     rating: 4.2,
+    imageUrl: 'https://im.whatshot.in/img/2021/Aug/istock-872361244-cropped-1624514729-1626177802-1629879745.jpg'
   },
   {
     id: 'salon2',
@@ -418,5 +449,6 @@ export const salons: Service[] = [
       { id: 'salr1', user: 'Neha', rating: 5, comment: 'Professional staff.', date: '2024-01-20', avatarColor: 'bg-pink-500' },
     ],
     rating: 5.0,
+    imageUrl: 'https://media.istockphoto.com/id/827536320/photo/hairdresser-washing-womans-hair-in-hairdresser-salon.jpg?s=612x612&w=0&k=20&c=u85RRwuvK6Hb6JPY2UPwQMZR-Pvk8Mcmf-DqaoApWkY='
   },
 ];
